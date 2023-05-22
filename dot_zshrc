@@ -89,6 +89,7 @@ if [ -x "$(command -v nvim)" ]; then
   alias vim=nvim
 fi
 [ -f "$HOME/.config/zsh/custom.zsh" ] && source "$HOME/.config/zsh/custom.zsh" 
+[ -f "$HOME/.config/zsh/private.zsh" ] && source "$HOME/.config/zsh/private.zsh" 
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
