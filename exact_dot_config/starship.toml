@@ -1,0 +1,19 @@
+# Use custom format
+add_newline = false
+command_timeout = 1000
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[➜](bold red) "
+
+[line_break]
+disabled = true
+
+[conda]
+disabled = true
+ignore_base=false
+format = "[$symbol$environment](bold green) "
+
+[directory]
+truncation_length = 1
+truncation_symbol = ""

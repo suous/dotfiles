@@ -72,6 +72,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  vi-mode
   zsh-syntax-highlighting
   zsh-autosuggestions
 )
@@ -87,6 +88,7 @@ if [ -x "$(command -v nvim)" ]; then
   export EDITOR='nvim'
   alias vim=nvim
 fi
+[ -f "$ZSH_CUSTOM/custom.zsh" ] && source "$ZSH_CUSTOM/custom.zsh" 
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
