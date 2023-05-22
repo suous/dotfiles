@@ -88,7 +88,7 @@ if [ -x "$(command -v nvim)" ]; then
   export EDITOR='nvim'
   alias vim=nvim
 fi
-[ -f "$ZSH_CUSTOM/custom.zsh" ] && source "$ZSH_CUSTOM/custom.zsh" 
+[ -f "$HOME/.config/zsh/custom.zsh" ] && source "$HOME/.config/zsh/custom.zsh" 
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

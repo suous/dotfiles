@@ -1,5 +1,5 @@
 alias aliases="${EDITOR:-vim} $ZSH_CUSTOM/aliases.zsh"
-alias custom="${EDITOR:-vim} $ZSH_CUSTOM/custom.zsh"
+alias custom="${EDITOR:-vim} $HOME/.config/zsh/custom.zsh"
 
 alias c=clear
 
